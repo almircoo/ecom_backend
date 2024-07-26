@@ -4,7 +4,7 @@ from rest_framework import status
 from .models import FixedPriceCoupon, PercentageCoupon
 from .serializers import FixedPriceCouponSerializer, PercentageCouponSerializer
 
-
+# check coupons class
 class CheckCouponView(APIView):
     def get(self, request, format=None):
         try:
