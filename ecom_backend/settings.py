@@ -21,7 +21,7 @@ DEBUG = True
 # Domain enved
 DOMAIN = os.environ.get('DOMAIN')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["192.168.***.***","localhost"] # Ip tcp/
 
 
 # Application definition
